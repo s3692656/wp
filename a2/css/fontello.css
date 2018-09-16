@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello.eot?30970073');
+  src: url('../fonts/fontello.eot?30970073#iefix') format('embedded-opentype'),
+       url('../fonts/fontello.woff2?30970073') format('woff2'),
+       url('../fonts/fontello.woff?30970073') format('woff'),
+       url('../fonts/fontello.ttf?30970073') format('truetype'),
+       url('../fonts/fontello.svg?30970073#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  line-height: 1em;
+  margin-left: .2em;
+
+}
+
+.icon-users:before { content: '\e98f'; } /* '' */
+.icon-student-1:before { content: '\e808'; } /* '' */
+.icon-university:before { content: '\e809'; } /* '' */
+.icon-diploma:before { content: '\e811'; } /* '' */
+.icon-earth-globe:before { content: '\e812'; } /* '' */
