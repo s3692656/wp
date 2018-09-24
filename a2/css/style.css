@@ -230,7 +230,6 @@ input[type=number]::-webkit-outer-spin-button{
 .dotted-line { border-bottom: 1px dotted #fff; }
 
 
-/*------- Custom Typography Display ---*/
 .display-1 { font-size: 42px; }
 
 /*-------- Impact / Counter Elements --------*/
@@ -340,14 +339,12 @@ img.grayscale:hover { filter: grayscale(0); opacity: 1; transition-property: fil
 .footer { background: #094477; padding-top: 60px; padding-bottom: 60px; color: #a6cae8; font-size: 15px; }
 .widget-footer { margin-bottom: 30px; margin-right:20px; }
 .widget-footer .widget-title { color: #fff; text-transform: uppercase; font-size: 16px; letter-spacing: 2px }
-ul.arrow-footer li { position: relative; padding-left: 1px; }
-ul.arrow-footer li:before { font-family: "FontAwesome"; display: inline-block; left: 0; font-size: 15px; color: #a6cae8; content: '\f105'; }
+display: inline-block; left: 0; font-size: 15px; color: #a6cae8; content: '\f105'; }
 .widget-footer a { color: #a6cae8; }
 .widget-footer a:hover { color: #fff; }
 .tiny-footer { background: #043864; padding-top: 8px; padding-bottom: 8px; font-size: 12px; color: #a6cae8; }
 .footer-dark { background: #222426; padding-top: 100px; padding-bottom: 80px; color: #7e8083; }
-.footer-dark ul.arrow-footer li { position: relative; padding-left: 12px; }
-.footer-dark ul.arrow-footer li:before { font-family: "FontAwesome"; display: inline-block; position: absolute; left: 0; font-size: 15px; color: #7e8083; content: '\f105'; }
+
 .footer-dark a { color: #7e8083; }
 .tiny-footer-dark { background: #1c1e20; padding-top: 8px; padding-bottom: 8px; font-size: 12px; color: #898b8e; }
 
@@ -358,7 +355,7 @@ ul.arrow-footer li:before { font-family: "FontAwesome"; display: inline-block; l
 
 /*---- Testimonial Pages ---*/
 .testimonial-img { margin-top: 50px; position: relative; }
-.testimonial-badge { background: #23c05d; width: 80px; height: 80px; border-radius: 100%; display: block; position: absolute; top: 40px; text-align: center; font-size: 32px; color: #fff; padding-top: 24px; right: 0px; }
+
 .testimonial-block { margin-bottom: 20px; margin-top: 60px; }
 .testimonial-content { margin-bottom: 40px; }
 .testimonial-text { font-family: 'PT Serif', serif; font-weight: normal; font-style: italic; color: #1c1e20; font-size: 26px; line-height: 36px; }
@@ -435,14 +432,6 @@ ul.arrow-footer li:before { font-family: "FontAwesome"; display: inline-block; l
 .post-large .post-header .post-title { color: #fff; }
 .post-large .meta, .post-large .meta-link { color: #fff; }
 .firstcharacter { color: #898b8e;; float: left; font-size: 75px; line-height: 60px; padding-top: 4px; padding-right: 8px; padding-left: 3px; }
-/*-------- Post meta --------*/
-.meta { font-size: 13px; text-transform: uppercase; margin-bottom: 10px; font-weight: 400; color: #898b8e; }
-
-.meta-date, .meta-author, .meta-comments, .meta-cat { display: inline-block; margin-right: 10px; }
-.meta-link { color: #898b8e;; }
-
-.author-post { border-top: 1px dashed #e2e6ea; padding-top: 29px; margin-top: 30px; margin-bottom: 40px; border-bottom: 1px dotted #e2e6ea; padding-bottom: 30px; }
-.author-img { margin-bottom: 30px; }
 
 
 /*----- widget -----*/
@@ -470,15 +459,9 @@ ul.arrow-footer li:before { font-family: "FontAwesome"; display: inline-block; l
 .newsleter-card-title { font-size: 34px; }
 
 .newsletter-primary { background-color: #094477; border: none; color: #a6cae8; }
-.newsletter-primary .newsleter-card-title { color: #fff; }
-.newsletter-primary .form-text { color: #a6cae8 !important; }
-
-.newsleter-modal-card-title { font-size: 36px; }
-.newsleter-modal-card-title, .newsletter-modal-card-text { color: #fff; }
 
 .newsltetter-dialog { max-width: 600px; }
 .newsletter-img { width: 100%; }
-.newsletter-img-overlay { position: absolute; top: 0; right: 0; bottom: 0; left: 0; padding: 60px; }
 
 
 
